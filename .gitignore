@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Environment — NEVER commit
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Database
+*.sqlite
+pgdata/
+postgres-data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
